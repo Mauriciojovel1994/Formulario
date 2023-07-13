@@ -1,0 +1,152 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-image: url(/IMG/pexels-miguel-á-padriñán-3930091\ \(2\).jpg);
+    width: 100%;
+}
+
+/*tabla*/
+table{
+    padding: 2px;
+     border:solid white;
+     border-collapse: collapse;
+ }
+
+ h1{
+    color: white;
+ }
+td,tr,th{
+    color: white;
+    border: solid white;
+    text-align: center;
+}
+
+.contenedor{
+    background-color: rgba(0, 0, 0, 0.706);
+    margin: auto;
+    margin-top: 50px;
+    width: 70%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btnNuevo{
+    margin: 2px;
+    padding: 8px;
+    border-radius: 5px 5px 5px 5px;
+    background-color: #198754;
+    color: rgb(253, 253, 253);
+    font-size: 13px;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    -moz-border-radius: 5px 5px 5px 5px;
+    -ms-border-radius: 5px 5px 5px 5px;
+    -o-border-radius: 5px 5px 5px 5px;
+}
+
+.btnContainer{
+    display: flex;
+}
+
+.btnEditar , .btnDelete{
+    flex: 1;
+    padding: 2px 2px;
+    font-size: 13px;
+
+}
+
+
+.btnEditar{
+ color: white;
+ margin-left: 20px;
+ border: solid rgb(27, 110, 194);
+ background-color: rgb(27, 110, 194);
+ border-top-left-radius: 5px;
+ border-bottom-left-radius: 5px;
+}
+
+.btnDelete{
+    color: white;
+    padding-right: 10px;
+    margin-right: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: solid #db3545;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: #db3545;
+}
+/*tabla*/
+/*formulario*/
+
+fieldset{
+    width: 350px;
+    height: 345px;
+    display: flex;
+    justify-content: center;
+}
+
+p{
+    display: flex;
+    margin-inline: auto;
+    justify-content: flex-end;
+}
+label, input{
+    color: white;
+    margin-inline: 10px;
+    align-content: space-evenly;
+}
+
+.check{
+    margin-inline-end: 112px;
+    margin-inline-start: 10px;
+}
+
+.btns{
+    display: flex;
+    justify-content: space-around;
+}
+
+.btnSave, .btnCancelar{
+    padding: 3px;
+    margin-inline: 10px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    background-color: rgba(142, 148, 148, 0.222);
+    color: white;
+    font-size: 13px;
+}
+/*formulario*/
+
+/*datos*/
+
+.fondoDatos{
+    background-image: url(/IMG/concepto-dispositivo-vista-superior-espacio-copia\ \(1\).jpg);
+   position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.contenedorDatos{
+    margin-top: 40px;
+    margin-inline: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+    height: 500px;
+}
+
+.mensaje{
+    font-family: fantasy;
+    font-size: 100px;
+    text-align: center;
+
+}
